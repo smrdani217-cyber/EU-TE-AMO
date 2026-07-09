@@ -1,0 +1,475 @@
+/* ==========================================================
+   PARA SEMPRE NÓS ❤️
+   ANIMATIONS.CSS
+========================================================== */
+
+/* ===========================
+   LOADER
+=========================== */
+
+@keyframes heartbeat{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    25%{
+
+        transform:scale(1.18);
+
+    }
+
+    50%{
+
+        transform:scale(1);
+
+    }
+
+    75%{
+
+        transform:scale(1.15);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* ===========================
+   FLOAT
+=========================== */
+
+@keyframes floating{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-18px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================
+   ZOOM
+=========================== */
+
+@keyframes zoomHero{
+
+    from{
+
+        transform:scale(1);
+
+    }
+
+    to{
+
+        transform:scale(1.08);
+
+    }
+
+}
+
+/* ===========================
+   FADE UP
+=========================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(70px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================
+   FADE LEFT
+=========================== */
+
+@keyframes fadeLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-80px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/* ===========================
+   FADE RIGHT
+=========================== */
+
+@keyframes fadeRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(80px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/* ===========================
+   SCALE
+=========================== */
+
+@keyframes scaleIn{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.8);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* ===========================
+   BRILHO
+=========================== */
+
+@keyframes glow{
+
+    0%{
+
+        box-shadow:0 0 10px rgba(255,77,109,.2);
+
+    }
+
+    50%{
+
+        box-shadow:
+        0 0 30px rgba(255,77,109,.7),
+        0 0 60px rgba(255,77,109,.3);
+
+    }
+
+    100%{
+
+        box-shadow:0 0 10px rgba(255,77,109,.2);
+
+    }
+
+}
+
+/* ===========================
+   CORAÇÕES
+=========================== */
+
+@keyframes heartRise{
+
+    0%{
+
+        opacity:0;
+
+        transform:
+        translateY(0)
+        scale(.4);
+
+    }
+
+    15%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+        translateY(-110vh)
+        rotate(360deg)
+        scale(1.4);
+
+    }
+
+}
+
+/* ===========================
+   ESTRELAS
+=========================== */
+
+@keyframes twinkle{
+
+    0%{
+
+        opacity:.2;
+
+    }
+
+    50%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:.2;
+
+    }
+
+}
+
+/* ===========================
+   BOTÕES
+=========================== */
+
+@keyframes pulseButton{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.05);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* ===========================
+   CARTA
+=========================== */
+
+@keyframes letterOpen{
+
+    from{
+
+        transform:
+
+        translateY(120px)
+
+        rotateX(90deg);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:
+
+        translateY(0)
+
+        rotateX(0);
+
+        opacity:1;
+
+    }
+
+}
+
+/* ===========================
+   MODAL
+=========================== */
+
+@keyframes modalOpen{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.75);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* ===========================
+   FOTO
+=========================== */
+
+@keyframes photoFloat{
+
+    0%{
+
+        transform:
+        rotate(-2deg);
+
+    }
+
+    50%{
+
+        transform:
+        rotate(2deg)
+        translateY(-8px);
+
+    }
+
+    100%{
+
+        transform:
+        rotate(-2deg);
+
+    }
+
+}
+
+/* ===========================
+   TEXTO
+=========================== */
+
+@keyframes typingCursor{
+
+    50%{
+
+        border-color:transparent;
+
+    }
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero-content{
+
+    animation:
+
+    fadeUp 1.4s ease;
+
+}
+
+#hero img{
+
+    animation:
+
+    zoomHero 15s linear infinite alternate;
+
+}
+
+.photo-card{
+
+    animation:
+
+    scaleIn .9s;
+
+}
+
+.counter-box{
+
+    animation:
+
+    fadeUp .8s;
+
+}
+
+.page{
+
+    animation:
+
+    floating 8s ease-in-out infinite;
+
+}
+
+.reason-card{
+
+    animation:
+
+    glow 4s infinite;
+
+}
+
+#playMusic{
+
+    animation:
+
+    pulseButton 2s infinite;
+
+}
+
+.modal-content{
+
+    animation:
+
+    modalOpen .45s;
+
+}
+
+.letter{
+
+    animation:
+
+    letterOpen .8s;
+
+}

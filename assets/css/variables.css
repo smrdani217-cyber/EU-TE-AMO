@@ -1,0 +1,164 @@
+/* ==========================================================
+   PARA SEMPRE NÓS ❤️
+   VARIABLES.CSS
+========================================================== */
+
+:root{
+
+    /* ======================
+       CORES
+    ======================= */
+
+    --primary:#ff4d6d;
+
+    --primary-light:#ff758f;
+
+    --primary-dark:#d6336c;
+
+    --secondary:#ffd6de;
+
+    --background:#09090b;
+
+    --background2:#101114;
+
+    --background3:#18191d;
+
+    --white:#ffffff;
+
+    --text:#f5f5f5;
+
+    --text-light:#c9c9c9;
+
+    --gray:#777777;
+
+    --success:#00c853;
+
+    --danger:#ff1744;
+
+    --shadow:rgba(0,0,0,.35);
+
+    --glass:rgba(255,255,255,.08);
+
+    --glass-border:rgba(255,255,255,.15);
+
+    /* ======================
+       FONTES
+    ======================= */
+
+    --font-title:"Playfair Display",serif;
+
+    --font-script:"Great Vibes",cursive;
+
+    --font-text:"Poppins",sans-serif;
+
+    /* ======================
+       TAMANHOS
+    ======================= */
+
+    --container:1250px;
+
+    --radius:20px;
+
+    --radius-small:12px;
+
+    --radius-large:35px;
+
+    /* ======================
+       SOMBRAS
+    ======================= */
+
+    --shadow-sm:0 5px 15px rgba(0,0,0,.15);
+
+    --shadow-md:0 10px 30px rgba(0,0,0,.25);
+
+    --shadow-lg:0 20px 60px rgba(0,0,0,.45);
+
+    --shadow-pink:0 15px 45px rgba(255,77,109,.35);
+
+    /* ======================
+       TRANSIÇÕES
+    ======================= */
+
+    --transition:.35s ease;
+
+    --transition-slow:.6s ease;
+
+    /* ======================
+       GRADIENTES
+    ======================= */
+
+    --gradient-primary:
+    linear-gradient(
+        135deg,
+        #ff4d6d,
+        #ff758f
+    );
+
+    --gradient-dark:
+    linear-gradient(
+        180deg,
+        #09090b,
+        #121317
+    );
+
+    --gradient-glass:
+    linear-gradient(
+        rgba(255,255,255,.08),
+        rgba(255,255,255,.02)
+    );
+
+}
+
+/* ===========================
+    CONTAINER
+=========================== */
+
+.container{
+
+    width:min(92%,var(--container));
+
+    margin:auto;
+
+}
+
+/* ===========================
+    SECTIONS
+=========================== */
+
+section{
+
+    padding:120px 0;
+
+}
+
+/* ===========================
+    IMAGENS
+=========================== */
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+/* ===========================
+    LINKS
+=========================== */
+
+a{
+
+    text-decoration:none;
+
+}
+
+/* ===========================
+    LISTAS
+=========================== */
+
+ul{
+
+    list-style:none;
+
+}
