@@ -156,28 +156,26 @@ music.play();
 ==========================================================*/
 
 document.addEventListener(
+    "visibilitychange",
+    ()=>{
 
-"visibilitychange",
+        if(document.hidden){
 
-()=>{
+            if(!music.paused){
 
-if(document.hidden){
+                music.volume=.15;
 
-if(!music.paused){
+            }
 
-music.volume=.15;
+        }
+        else{
 
-}
+            music.volume=.45;
 
-}
+        }
 
-else{
-
-music.volume=.45;
-
-}
-
-}
+    }
+);
 
 /*==========================================================
     TECLA ESPAÇO
